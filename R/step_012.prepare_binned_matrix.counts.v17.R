@@ -2,7 +2,7 @@ library(data.table)
 library(GenomicRanges)
 
 
-source('functions/set_ops.R')
+#source('functions/set_ops.R')
 
 organism = 'mouse'
 dataset = 'snmc_mouse'
