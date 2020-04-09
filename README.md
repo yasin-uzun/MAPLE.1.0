@@ -23,7 +23,7 @@ We trained multiple models using different multi-omics training data. You can do
 
 ## Example Data
 
-We provide an example dataset o test MethylPredict. This data is a subset of CpG files from the study of Luo et al \[1\].   
+We provide an example dataset o test MethylPredict. This data is a subset of CpG files from the study of Luo et al \[1\] (GSE97179).   
 The original data has over 3000 cells. In here, we just provide data 100 cells to give a quick run:
 
 [Example Dataset](https://drive.google.com/drive/folders/1GMJpbrXHJ91iPmyclGIPVhxoLcfqyjum?usp=sharing)
