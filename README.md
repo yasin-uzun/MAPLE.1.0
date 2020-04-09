@@ -22,7 +22,7 @@ The original data has over 3000 cells. In here, we just provide data 100 cells t
 ## Running
 Assuming you have downloaded the test data and you have the CpG cov files (in Bismark format), you can run MethylPredict as follows:
 
-```
+```R
 library(MethylPredict)
 
 #Set directory names
