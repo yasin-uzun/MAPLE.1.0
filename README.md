@@ -75,7 +75,7 @@ gene_activity_matrix = convert_preds_to_matrix(predict_ensem)
 
 ```
 # Contact
-For comments and questions, please contact Yasin Uzun (uzuny at email dot chop dot edu)
+For comments and questions, please contact Yasin Uzun (uzuny at email chop edu)
 
 # References
 \[1\] Luo, Chongyuan, Christopher L. Keown, Laurie Kurihara, Jingtian Zhou, Yupeng He, Junhao Li, Rosa Castanon, et al. 2017. “Single-Cell Methylomes Identify Neuronal Subtypes and Regulatory Elements in Mammalian Cortex.” Science 357 (6351): 600–604
