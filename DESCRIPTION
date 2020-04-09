@@ -2,10 +2,22 @@ Package: MethylPredict
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Yasin Uzun
+Maintainer: The package maintainer <yasin.delco@gmail.com>
+Description: Predicts gene activity from single cellll DNA methylation data.
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports:
+  data.table,
+  GenomicRanges,
+  rdist,
+  doSNOW,
+  reshape2,
+  abind,
+  keras,
+  glmnet,
+  randomForest
+Suggests:
+  reticulate
