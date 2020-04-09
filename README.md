@@ -6,7 +6,7 @@ MethylPredict is a supervised learning algorithm that is developed the predict t
 ## Installation
 
 To install MethylPredict, type the following commands in R command windows:
-```
+```R
 library(devtools)
 install_github("yasin-uzun/MethylPredict.1.0")
 ```
