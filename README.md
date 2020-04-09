@@ -15,10 +15,18 @@ install_github("yasin-uzun/MethylPredict.1.0")
 To run MethylPredict, you need some genome annotation files. You can download those annotation from here: 
 
 [Annotation Data](https://drive.google.com/drive/folders/1E2UH8K02n-RSY67JCDN__ghArtwZ3e0x?usp=sharing)
+
+## Built Models
+We trained multiple models using different multi-omics training data. You can download them from here:
+
+[Trained Models](https://drive.google.com/drive/folders/1GMJpbrXHJ91iPmyclGIPVhxoLcfqyjum?usp=sharing)
+
 ## Example Data
 
-We provide an example dataset for you to test MethylPredict. This data is a subset of CpG files from the study of Luo et al (1).   
-The original data has over 3000 cells. In here, we just provide data 100 cells to give a quick run.
+We provide an example dataset o test MethylPredict. This data is a subset of CpG files from the study of Luo et al (1).   
+The original data has over 3000 cells. In here, we just provide data 100 cells to give a quick run:
+
+[Example Dataset](https://drive.google.com/drive/folders/1GMJpbrXHJ91iPmyclGIPVhxoLcfqyjum?usp=sharing)
 
 ## Running
 Assuming you have downloaded the test data and you have the CpG cov files (in Bismark format), you can run MethylPredict as follows:
