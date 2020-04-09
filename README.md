@@ -19,7 +19,7 @@ To run MethylPredict, you need some genome annotation files. You can download th
 ## Built Models
 We trained multiple models using different multi-omics training data. You can download them from here:
 
-[Trained Models](https://drive.google.com/drive/folders/1GMJpbrXHJ91iPmyclGIPVhxoLcfqyjum?usp=sharing)
+[Trained Models](https://drive.google.com/drive/folders/1lLHOsT-gaPwwdYWjexDhfXSH9QjKQDAa?usp=sharing)
 
 ## Example Data
 
