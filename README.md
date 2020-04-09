@@ -27,7 +27,7 @@ library(MethylPredict)
 
 #Set directory names
 annot_dir = 'data/annot/'
-model_dir = 'data/models/'
+model_dir = 'data/models/Clark/'
 cov_dir = 'data/example/cov_files/'
 
 #Set input files
@@ -45,15 +45,15 @@ meta_object = compute_meta_cells(df_met =  binned_list[["df_binned_met"]],
 fr_list = get_fr_list(meta_data = meta_object, cpg_content_file = cpg_content_file)
 
 #Load CNN model and predict
-cnn_model_file = paste0(model_dir,'/Clark/cnn_model.hd5')
+cnn_model_file = paste0(model_dir, '/cnn_model.hd5')
 predict_cnn = cnn_predict(fr_list, cnn_model_file)
 
 #Load Elastic model and predict
-elastic_model_file = paste0(model_dir,'/Clark/elastic_model.rds')
+elastic_model_file = paste0(model_dir, '/elastic_model.rds')
 predict_elastic = elastic_predict(fr_list, elastic_model_file)
 
 #Load RF model and predict
-rf_model_file = paste0(model_dir,'/Clark/rf_model.rds')
+rf_model_file = paste0(model_dir, '/rf_model.rds')
 predict_rf = rf_predict(fr_list, rf_model_file)
 
 #Compute Ensemble prediction
