@@ -12,8 +12,8 @@ install_github("yasin-uzun/MethylPredict.1.0")
 ```
 ## Annotation Data
 
-To run MethylPredict, you need some genome annotation files. You can download those annotation files using these links:
-
+To run MethylPredict, you need some genome annotation files. You can download those annotation from here:
+[Annotation Data](https://drive.google.com/drive/folders/1E2UH8K02n-RSY67JCDN__ghArtwZ3e0x?usp=sharing)
 ## Example Data
 
 We provide an example dataset for you to test MethylPredict. This data is a subset of CpG files from the study of Luo et al (1).   
