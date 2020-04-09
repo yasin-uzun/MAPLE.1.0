@@ -24,5 +24,17 @@ Assuming you have downloaded the test data and you have the CpG cov files (in Bi
 
 ```
 library(MethylPredict)
+library(MethylPredict)
+library(Seurat)
+
+annot_dir = 'data/annot/'
+model_dir = 'data/models/'
+
+cov_dir = 'data/example/cov_files/'
+meta_dir = 'data/example/meta/'
+output_dir = 'data/example/output/'
+
+annot_file = paste0(annot_dir,'/gencode.mm10.vM22.genes.bed')
+cpg_content_file =  paste0(annot_dir,'/regions.genes.tss_ud_5K.cpg_ratio.bin_size_500.mm10.rds')
 
 ```
