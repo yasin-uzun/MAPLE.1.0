@@ -10,3 +10,19 @@ To install MethylPredict, type the following commands in R command windows:
 library(devtools)
 install_github("yasin-uzun/MethylPredict.1.0")
 ```
+## Annotation Data
+
+To run MethylPredict, you need some genome annotation files. You can download those annotation files using these links:
+
+## Example Data
+
+We provide an example dataset for you to test MethylPredict. This data is a subset of CpG files from the study of Luo et al (1).   
+The original data has over 3000 cells. In here, we just provide data 100 cells to give a quick run.
+
+## Running
+Assuming you have downloaded the test data and you have the CpG cov files (in Bismark format), you can run MethylPredict as follows:
+
+```
+library(MethylPredict)
+
+```
