@@ -1,14 +1,14 @@
 # MAPLE: Methylome Association by Predictive Linkage to Expression
 An R package for predicting gene activity level for single cell DNA Methylation data
 
-MethylPredict is a supervised learning algorithm that is developed the predict the gene activity levels of individual cells from single cell DNA Methylation. It is implemented in R programming language and uses CpG methylation sites in promoter regions to infer gene activity. 
+MAPLE is a supervised learning algorithm that is developed the predict the gene activity levels of individual cells from single cell DNA Methylation. It is implemented in R programming language and uses CpG methylation sites in promoter regions to infer gene activity. 
 
 ## Installation
 
-To install MethylPredict, type the following commands in R command prompt:
+To install MAPLE, type the following commands in R command prompt:
 ```R
 library(devtools)
-install_github("yasin-uzun/MethylPredict.1.0")
+install_github("yasin-uzun/MAPLE.1.0")
 ```
 ## Annotation Data
 
