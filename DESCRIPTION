@@ -1,9 +1,9 @@
 Package: MAPLE
 Type: Package
-Title: Methylome Association by Predictive Linkage to Expression
+Title: 
 Version: 0.1.0
-Author: Yasin Uzun <yasin.delco@gmail.com>
-Maintainer: Yasin Uzun <yasin.delco@gmail.com>
+Author: Yasin Uzun
+Maintainer: The package maintainer <yasin.delco@gmail.com>
 Description: Predicts gene activity from single cell DNA methylation data.
 License: MIT License
 Encoding: UTF-8

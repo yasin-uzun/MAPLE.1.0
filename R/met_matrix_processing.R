@@ -457,7 +457,7 @@ compute_meta_cells <- function(df_met, df_demet, df_exp = NULL, exp_aggr_type = 
 
 
 
-compute_binned_met_counts <- function(cov_dir, annot_file, sample_name = 'combined')
+compute_binned_met_counts <- function(cov_dir, annot_file, sample_name = 'combined', methylation_type = 'CpG')
 {
 
   cl <- makeCluster(24, outfile="", type = 'SOCK')
@@ -469,8 +469,10 @@ compute_binned_met_counts <- function(cov_dir, annot_file, sample_name = 'combin
     cov_files = list.files(cov_dir, pattern = paste0('',  '.*cov.gz'))
   }else{
     cov_files = list.files(cov_dir, pattern = paste0(sample_name,'.*cov.gz'))
-
   }
+
+  cov_files = cov_files[grepl(methylation_type, cov_files)]
+
   length(cov_files)
 
   dt_body = read.table(annot_file)
