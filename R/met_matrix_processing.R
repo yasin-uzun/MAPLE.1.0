@@ -627,7 +627,9 @@ compute_binned_met_counts <- function(cov_dir, annot_file, sample_name = 'combin
         cell = gsub('.cov.gz.sorted', '', cell)
         cell = gsub('.cov.gz', '', cell)
         cell = gsub('CpG_context.', '', cell)
-        cell = gsub('_', '___', cell)
+        cell = gsub('CpG_calls.', '', cell)
+
+        cell = sub('_', '___', cell)
 
 
         df_denorm = data.frame(cell = cell, data.frame(dt_features_denorm))
