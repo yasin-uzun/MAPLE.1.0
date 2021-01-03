@@ -76,6 +76,7 @@ gene_activity_matrix = convert_preds_to_matrix(predict_ensem)
 ```
 ## Citation
 If you use our software, please cite [our paper](https://genome.cshlp.org/content/early/2020/11/20/gr.267047.120.abstract) \[2\] .
+
 Yasin Uzun, Hao Wu, Kai Tan. Predictive modeling of single-cell DNA methylome data enhances integration with transcriptome data. Genome Research. Published in Advance. November 20, 2020.
 
 ## Contact
