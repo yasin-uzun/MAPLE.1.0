@@ -77,12 +77,12 @@ gene_activity_matrix = convert_preds_to_matrix(predict_ensem)
 ## Citation
 If you use our software, please cite [our paper](https://genome.cshlp.org/content/early/2020/11/20/gr.267047.120.abstract) \[2\] .
 
-Yasin Uzun, Hao Wu, Kai Tan. Predictive modeling of single-cell DNA methylome data enhances integration with transcriptome data. Genome Research. Published in Advance. November 20, 2020.
 
 ## Contact
 For comments and questions, please contact Yasin Uzun (uzuny at email chop edu)
 
 ## References
 \[1\] Luo, Chongyuan, Christopher L. Keown, Laurie Kurihara, Jingtian Zhou, Yupeng He, Junhao Li, Rosa Castanon, et al. 2017. “Single-Cell Methylomes Identify Neuronal Subtypes and Regulatory Elements in Mammalian Cortex.” Science 357 (6351): 600–604
-\[2\] Uzun Y, Wu H, Tan K. Predictive modeling of single-cell DNA methylome data enhances integration with transcriptome data. Bioarxiv, 2020. 
+
+\[2\] Yasin Uzun, Hao Wu, Kai Tan. Predictive modeling of single-cell DNA methylome data enhances integration with transcriptome data. Genome Research. Published in Advance. November 20, 2020.
 
