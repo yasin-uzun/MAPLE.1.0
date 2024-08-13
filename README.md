@@ -46,7 +46,7 @@ cpg_content_file =  paste0(annot_dir,'/regions.genes.tss_ud_5K.cpg_ratio.bin_siz
 #Compute binned data
 #IMPORTANT NOTE: If you have multiple types of methylation (CpG, nonCpG), you need to use
 #the prefix CpG or CpH in the file names and use the specific methylation_type argument for filtering.
-#If you just have one methylation type (CpG only), you can specify the methylation_type argument empty as below
+#If you just have one methylation type (eg. CpG only), you can specify the methylation_type argument empty as below
 binned_list = compute_binned_met_counts(cov_dir = cov_dir, annot_file = annot_file, methylation_type = "")
 
 #Compute meta cells
