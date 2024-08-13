@@ -72,7 +72,7 @@ predict_rf = rf_predict(fr_list, rf_model_file)
 prediction_list = list(predict_cnn, predict_elastic, predict_rf)
 predict_ensem = ensemble_predict(prediction_list)
 
-#Convert prediction into matrix format (genesxcells)
+#Convert gene activity predictions into matrix format (genesxcells)
 gene_activity_matrix = convert_preds_to_matrix(predict_ensem)
 
 
