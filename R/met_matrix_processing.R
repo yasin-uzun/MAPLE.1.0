@@ -533,7 +533,6 @@ compute_binned_met_counts <- function(cov_dir, annot_file, sample_name = 'combin
   {
     library(data.table)
     library(GenomicRanges)
-    #source('/mnt/isilon/tan_lab/uzuny/projects/MethylPredict/software_package/R_package/v12/MethylPredict/R/set_ops.R')
 
     print(i)
     cov_file = cov_files[i]
